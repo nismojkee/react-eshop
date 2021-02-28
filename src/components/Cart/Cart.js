@@ -43,7 +43,7 @@ class Store extends Component {
 										<hr />
 										<div className="row">
 											<div className="col px-5 text-right">
-												<CartTotals value={value} />
+												<CartTotals value={value} history={this.props.history}/>
 											</div>
 										</div>
 									</>
