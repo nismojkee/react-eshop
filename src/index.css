@@ -1,0 +1,21 @@
+.colorBtn {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	border: 1px solid rgba(0,0,0,0.1);
+	appearance: none;
+	margin: 2px;
+	box-shadow: 0 0 .05em .05em rgba(0,0,0,0.1);
+}
+.colorBtn.white {
+	background: white;
+}
+.colorBtn.black {
+	background: black;
+}
+.colorBtn.red {
+	background: red;
+}
+.colorBtn.indigo {
+	background: indigo;
+}
